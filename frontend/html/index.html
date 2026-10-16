@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Recipe Kitchen</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../javascript/index.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header class="site-header">
+        <a href="Admin.html" class="logo">My Recipe Kitchen</a>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#recipes">Recipes</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero slideshow -->
+    <main>
+        <section class="hero" aria-label="Featured recipes">
+
+            <!-- Background images -->
+            <div class="slides">
+
+                <div class="slide active">
+                    <img src="../images/header/2.png"
+                         alt="Homemade pasta with tomato sauce">
+                </div>
+
+                <div class="slide">
+                    <img src="../images/header/3.png"
+                         alt="Fresh and colourful salad">
+                </div>
+
+                <div class="slide">
+                    <img src="../images/header/4.png"
+                         alt="Delicious homemade dessert">
+                </div>
+
+                 <div class="slide active">
+                    <img src="../images/header/5.png"
+                         alt="Homemade pasta with tomato sauce">
+                </div>
+
+                 <div class="slide active">
+                    <img src="../images/header/6.png"
+                         alt="Homemade pasta with tomato sauce">
+                </div>
+
+                 <div class="slide active">
+                    <img src="../images/header/7.png"
+                         alt="Homemade pasta with tomato sauce">
+                </div>
+
+            </div>
+
+            <!-- Dark overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- Text displayed over the images -->
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO OUR KITCHEN</p>
+
+                <h1 id="hero-title">
+                    Discover Your Next Favourite Recipe
+                </h1>
+
+                <p id="hero-description">
+                    Find delicious meals, simple ingredients
+                    and recipes for every occasion.
+                </p>
+
+                <a href="#recipes" class="hero-button">
+                    Explore Recipes
+                </a>
+            </div>
+
+            <!-- Previous and next buttons -->
+            <button class="slider-arrow previous"
+                    type="button"
+                    aria-label="Previous slide">
+                &#10094;
+            </button>
+
+            <button class="slider-arrow next"
+                    type="button"
+                    aria-label="Next slide">
+                &#10095;
+            </button>
+
+            <!-- Slide indicators -->
+            <div class="slider-dots" aria-label="Choose a slide">
+                <button class="dot active"
+                        type="button"
+                        aria-label="Show slide 1"></button>
+
+                <button class="dot"
+                        type="button"
+                        aria-label="Show slide 2"></button>
+
+                <button class="dot"
+                        type="button"
+                        aria-label="Show slide 3"></button>
+                <button class="dot"
+                        type="button"
+                        aria-label="Show slide 4"></button>
+                <button class="dot"
+                        type="button"
+                        aria-label="Show slide 5"></button>  
+                <button class="dot"
+                        type="button"
+                        aria-label="Show slide 6"></button>
+                                            
+            </div>
+
+        </section>
+
+       
+        <section id="recipes" class="recipes-section">
+            <h2>Explore Our Recipes</h2>
+            <p>Discover something delicious to cook today.</p>
+        </section>
+
+       
+<!-- Categories Section -->
+<section class="categories-section" id="categories">
+
+    <div class="categories-heading">
+        <p class="category-eyebrow">DISCOVER SOMETHING DELICIOUS</p>
+        <h2>Explore Our Categories</h2>
+        <p>Find the perfect recipe for every craving.</p>
+    </div>
+
+    <div class="category-grid">
+
+        <a href="mainmeals.html" class="category-card">
+            <img src="../images/header/main.png" alt="Main meals">
+            <div class="category-glass">
+                <h3>Main Meals</h3>
+                <p>Delicious meals for lunch and dinner.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+        <a href="healthy.html" class="category-card">
+            <img src="../images/header/healthy.jpg" alt="Healthy food">
+            <div class="category-glass">
+                <h3>Healthy & Fresh</h3>
+                <p>Fresh, colourful and nutritious dishes.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+        <a href="dessert.html" class="category-card">
+            <img src="../images/header/dessert.jpg" alt="Desserts">
+            <div class="category-glass">
+                <h3>Desserts</h3>
+                <p>Sweet treats for every occasion.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+        <a href="breakfast.html" class="category-card">
+            <img src="../images/header/breakfast.png" alt="Breakfast">
+            <div class="category-glass">
+                <h3>Breakfast</h3>
+                <p>Start your morning with something tasty.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+        <a href="quickmeals.html" class="category-card">
+            <img src="../images/header/quick.png" alt="Quick meals">
+            <div class="category-glass">
+                <h3>Quick & Easy</h3>
+                <p>Simple recipes for busy days.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+        <a href="baking.html" class="category-card">
+            <img src="../images/header/baking.jpg" alt="Baking">
+            <div class="category-glass">
+                <h3>Baking</h3>
+                <p>Cakes, breads and homemade pastries.</p>
+                <span>Explore recipes ↗</span>
+            </div>
+        </a>
+
+
+<section class="recipes-section" id="recipes">
+    <div class="recipes-heading">
+        <p class="recipe-eyebrow">FRESH FROM OUR KITCHEN</p>
+        <h2>Discover Our Recipes</h2>
+        <p>Find your next favourite meal.</p>
+    </div>
+
+    <div id="recipe-grid" class="recipe-grid">
+        <p>Loading recipes...</p>
+    </div>
+</section>
+
+    </div>
+</section>
+
+    </main>
+
+</body>
+</html>

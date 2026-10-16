@@ -67,6 +67,6 @@ public class RecipeService {
 
     // Get recipes by category
     public List<Recipe> getRecipesByCategory(Integer categoryId) {
-        return recipeRepository.findByCategoryCId(categoryId);
+        return recipeRepository.findByCategory_Id(categoryId);
     }
 }

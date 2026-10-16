@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface RecipeRepository extends JpaRepository<Recipe, Integer> {
 
-    List<Recipe> findByCategoryCId(Integer categoryId);
+    List<Recipe> findByCategory_Id(Integer categoryId);
 
     List<Recipe> findByNameContainingIgnoreCase(String name);
 }
